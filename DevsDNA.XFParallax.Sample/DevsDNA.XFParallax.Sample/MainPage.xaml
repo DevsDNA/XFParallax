@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DevsDNA.XFParallax.Sample"
+             xmlns:parallax="clr-namespace:DevsDNA.XFParallax;assembly=DevsDNA.XFParallax"
+             x:Class="DevsDNA.XFParallax.Sample.MainPage">
+
+  <parallax:ParallaxView x:Name="MainParallax" BodyMargin="0,180,0,0" HeaderScrollSpeed="4">
+    <parallax:ParallaxView.HeaderContent>
+      <ContentView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Blue">
+        <Image Source="http://vignette3.wikia.nocookie.net/newdcmovieuniverse/images/d/d5/P81maaZ.jpg/revision/latest?cb=20160204201509"
+               Aspect="AspectFill" VerticalOptions="Start"/>
+      </ContentView>
+    </parallax:ParallaxView.HeaderContent>
+    <parallax:ParallaxView.BodyContent>
+      <ContentView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" HeightRequest="1300">
+        <ContentView.Margin>
+          <!-- need to add specific margin to  Windows to show header.-->
+          <OnPlatform x:TypeArguments="Thickness" WinPhone="0,180,0,0"/>
+        </ContentView.Margin>
+        <Image HorizontalOptions="Center" VerticalOptions="Start" Margin="0,-50,0,0"
+                 HeightRequest="100" WidthRequest="100"
+               Source="http://foundlovenowwhat.com/wp/wp-content/uploads/2013/11/Pic-Rounded-.png" Aspect="AspectFit"/>
+      </ContentView>
+    </parallax:ParallaxView.BodyContent>
+  </parallax:ParallaxView>
+
+</ContentPage>

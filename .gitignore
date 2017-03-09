@@ -3,3 +3,16 @@
 ################################################################################
 
 *.dll
+*.mdb
+*.pdb
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.UWP/bin/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.Droid/bin/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.ios/bin/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample/bin/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.UWP/obj/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.Droid/obj/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample.ios/obj/
+/DevsDNA.XFParallax.Sample/DevsDNA.XFParallax.Sample/obj/
+/packages/
+/DevsDNA.XFParallax/bin/
+/DevsDNA.XFParallax/obj/
