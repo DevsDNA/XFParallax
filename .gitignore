@@ -16,3 +16,4 @@
 /packages/
 /DevsDNA.XFParallax/bin/
 /DevsDNA.XFParallax/obj/
+*.suo
