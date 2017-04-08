@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DevsDNA.XFParallax</id>
+    <version>$version$</version>
+    <title>DevsDNA Xamarin Forms Parallax Control</title>
+    <authors>DevsDNA</authors>
+    <owners>DevsDNA</owners>
+    <licenseUrl>https://github.com/DevsDNA/XFParallax/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://www.github.com/devsdna/xfparallax</projectUrl>
+    <iconUrl>http://www.devsdna.com/Portals/0/images/logo/DevsDNALogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin Forms Parallax effect compatible with iOS Android and UWP</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>xamarin forms parallax effects ios android uwp</tags>
+  </metadata>
+</package>

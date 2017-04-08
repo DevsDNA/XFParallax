@@ -7,10 +7,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DevsDNA.XFParallax")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Parallax effect for Xamarin.Forms")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DevsDNA.XFParallax")]
+[assembly: AssemblyCompany("DevsDNA")]
+[assembly: AssemblyProduct("XFParallax")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

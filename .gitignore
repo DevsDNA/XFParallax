@@ -17,3 +17,9 @@
 /DevsDNA.XFParallax/bin/
 /DevsDNA.XFParallax/obj/
 *.suo
+
+*.bak
+
+*.user
+
+*.nupkg
